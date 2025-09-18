@@ -1,3 +1,13 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+Programming project done by The Tamakloe Team
+Used Languages: Html, Python and JavaScript 
+Special thanks to group members for their participation 
+
+
+"""
 from flask import Flask, render_template_string
 
 app = Flask(__name__)
@@ -131,3 +141,4 @@ def index():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
